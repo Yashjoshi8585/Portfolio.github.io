@@ -1,0 +1,486 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  background-color: inherit;
+}
+
+
+/*Navbar .............................................................................................*/
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+.navbar ul {
+  padding: 10px 0px 10px 0px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+
+.navbar a:hover{
+  text-decoration: underline 2px black;
+}
+
+
+/* Home Section............................................................................................*/
+
+.home-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.heading {
+  margin-top: 200px;
+  font-size: 100px;
+  font-weight: bold;
+  color: black; /* Adjust the color as needed */
+}
+
+.introduction {
+  font-size: 30px;
+  text-align: justify;
+  color: black;
+   /* Adjust the color as needed */
+}
+
+
+/* Skills section ...........................................................................................*/
+.skills,
+.tools{
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  color: black;
+  padding-left: 20%;
+  padding-right: 20%; /* Adjust the color as needed */
+}
+
+.edu{
+  font-style:initial;
+  font-weight: bold;
+}
+
+
+.skill,
+.tool {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 30px; /* Optional: Add rounded corners for a nicer look */
+}
+
+
+/* Experience Section*................................................................................................./
+/* Add this to your existing CSS */
+
+.experience{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.experience-card {
+  flex: 1;
+  display: flex;
+  background-color: transperant;
+  border-radius: 30px;
+  border:2px solid black;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.experience-image {
+  margin:20px 20px 20px 20px;
+  width: 500px;
+  height: 300px; /* Set the desired width for your image */
+  border: 2px solid black;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.experience-details {
+  flex: 1;
+  padding: 20px;
+  justify-content: center;
+}
+
+.ex-skill{
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 30px; 
+}
+.position {
+  font-size: 24px;
+  
+  font-weight: bold;
+  color: black;
+}
+
+.company {
+  font-size: 18px;
+  color: black;
+}
+
+.duration {
+  margin-bottom: 0px;
+  font-size: 18px;
+  text-align: justify;
+  color: rgb(24, 22, 22);
+}
+
+.description {
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.description a{
+  text-decoration: underline;
+  color: black;
+}
+
+.description a:hover{
+  color:#007bff;
+}
+
+
+/* Project Section...........................................................................................................*/
+.Projects{
+  margin-left: 10%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.project-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-cover {   /* project image*/
+  margin:20px 20px 0px 20px;
+  width: 500px;
+  height: 300px; /* Set the desired width for your image */
+  border: 2px solid black;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+
+
+.project-details {
+  flex: 1;
+  padding: 10px;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.project-description {
+  margin:0px 20px 0px 20px;
+  font-size: 16px;
+  color: black;
+  text-align: justify;
+}
+
+/* Style for the "View More" button */
+.view-more-button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.view-more-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.view-more-button button:hover {
+  color: #007bff;
+}
+
+
+
+/* Dashboards images.....................................................*/
+
+.image-grid-one {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.image-grid-second {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.image-grid-third {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+
+.project-image {
+  width: 900px;
+  height: 500px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+
+/* Contact me................................................................*/
+
+.contact-container {
+
+  max-width: 400px;
+  margin: 100px auto;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-bubble{
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 100px; /* Optional: Add rounded corners for a nicer look */
+  
+}
+.email,
+.phone {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.email:hover,
+.phone:hover {
+  color: #007bff;
+}
+
+/* Footer................................................................................................*/
+
+.footer {
+  margin-top: 100px;
+  text-align: center;
+  color: black;
+  padding: 20px;    
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid black;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer img{
+  width: 50px;
+  height: 50px;
+}
+
+.social-icons a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.rights-reserved {
+  margin-top: 10px;
+}
+
+
+
+
+/*Divider*/
+
+.section-divider {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.divider-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.line {
+  flex-grow: 1;
+  border-top: 3px solid black;
+}
+
+.section-heading {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  margin: 0 20px;
+}
+
+
+
+/* Add styles for the sticky class */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Add some styling for the content */
+.content {
+  padding: 20px;
+  margin-top: 60px; /* Adjust according to your header and navbar height */
+}
+
+
+/*..................................................................................................................*/
+
+/* Responsive Styles for Mobile and Tablet */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 60px; /* Adjust the font size for smaller screens */
+  }
+
+
+  .introduction,
+  .skills,
+  .tools,
+  .description,
+  .project-title {
+    font-size: 18px; /* Adjust the font size for smaller screens */
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px; /* Adjust the padding for better spacing */
+  }
+
+  .skill,
+  .tool,
+  .ex-skill {
+    font-size: 12px; /* Adjust the font size for smaller screens */
+    padding: 5px; /* Adjust the padding for better spacing */
+    margin: 5px; /* Adjust the margin for better spacing */
+  }
+
+  .Projects{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .project-card,
+  .experience-card {
+    flex-direction: column; /* Change the direction to stack items vertically */
+  }
+
+  .experience-image{
+    width: auto; /* Make images occupy the full width */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+
+  .project-cover {
+    width: 400px; /* Make images occupy the full width */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+
+  .navbar ul {
+    flex-direction: row; /* Stack navigation items vertically */
+    text-align: center;
+    gap: 20px;
+  }
+
+  .navbar li {
+    margin: 10px 0; /* Adjust spacing between navigation items */
+  }
+
+  .image-grid-one {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .image-grid-second {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  .navbar a{
+    font-size: 25px;
+    gap: 2px;
+  }
+}
+
+
+
